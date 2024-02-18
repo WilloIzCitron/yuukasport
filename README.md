@@ -4,6 +4,7 @@ This is a live wallpaper of Yuuka (Track ver.), also this repository forked from
 this can be supported on Lively(untested)
 
 # How to 
+If you want to develop and contribute in this project you can do this below:
 ## Build
 TODO
 
