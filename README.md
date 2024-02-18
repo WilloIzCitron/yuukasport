@@ -18,7 +18,7 @@ This is the issue tables below:
 | 2  |  Intro has 2 segments were splited |   |
 | 3  |  Inaccurate hitbox |   |
 
-#Credits
+# Credits
 - [Fully Interactive Blue Archive L2D Mini-Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2956165539) by Xenon257R 
 
 Disclaimer (Please Read): 
