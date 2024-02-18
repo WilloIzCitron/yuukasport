@@ -7,8 +7,10 @@ this can be supported on Lively(untested)
 ## Build
 TODO
 
-#Known Issues
-Warning! this project has many bugs it can encounter sometimes
+# Known Issues
+Warning! this project has many bugs
+
+This is the issue tables below:
 |  No |  Issues |  Issue No |
 |---|---|---|
 |  1 | After Headpatting, Blush can't disappear  |   |
