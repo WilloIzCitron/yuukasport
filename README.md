@@ -14,5 +14,5 @@ This is the issue tables below:
 |  No |  Issues |  Issue No |
 |---|---|---|
 |  1 | After Headpatting, Blush can't disappear  |   |
-| 2  |  Intro has 2 segments |   |
-| 3  |  unpredicted hitbox |   |
+| 2  |  Intro has 2 segments were splited |   |
+| 3  |  Inaccurate hitbox |   |
