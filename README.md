@@ -12,11 +12,11 @@ TODO
 Warning! this project has many bugs
 
 This is the issue tables below:
-|  No |  Issues |  Issue No |
+|  No |  Issues |  Status |
 |---|---|---|
 |  1 | After Headpatting, Blush can't disappear  |   |
-| 2  |  Intro has 2 segments were splited |   |
-| 3  |  Inaccurate hitbox |   |
+| 2  |  Intro has 2 segments were splited | Fixed  |
+| 3  |  Inaccurate hitbox | Fixed via debugging  |
 
 # Credits
 - [Fully Interactive Blue Archive L2D Mini-Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2956165539) by Xenon257R 
