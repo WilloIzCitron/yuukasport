@@ -3,7 +3,6 @@ let mvp = new spine.webgl.Matrix4();
 
 let lastFrameTime;
 let spineData;
-let spineData1;
 
 let customScale = 1;
 let targetFps = 60;
@@ -37,7 +36,7 @@ const HAS_A = { eye: false, point: true };
 const AUDIO_DETAIL = [];
 
 const HITBOX = {
-	headpat: { xMin: 1320, xMax: 1550, yMin: 110, yMax: 790 },
+	headpat: { xMin: 936, xMax: 1475, yMin: 225, yMax: 306 },
 	voiceline: { xMin: 0, xMax: 0, yMin: 0, yMax: 0 }
 };
 
@@ -150,6 +149,8 @@ function t(n, side) {
 function pressedMouse(x, y) {
 	tx = t(x, 'x');
 	ty = t(y, 'y');
+	//console.log(tx);
+	//console.log(ty); debug
 	if (tx > HITBOX.headpat.xMin && tx < HITBOX.headpat.xMax && ty > HITBOX.headpat.yMin && ty < HITBOX.headpat.yMax && mouseOptions.headpatting) {
 		spineData.state.setAnimation(1, 'Pat_01_M', false);
 		if (HAS_A.point) spineData.state.setAnimation(2, 'Pat_01_A', false);
@@ -358,14 +359,23 @@ function load() {
 
 		// User Option to skip Intro Animation
 		if (introAnimation) {
-			// spineData.state.addAnimation(0, 'Start_Idle_01', false);
-			// pineData = loadSpineData(BINARY, ATLAS, false);
-			// spineData.state.SetAnimation(0, 'Start_Idle_01', false);
-			// spineData = loadSpineData(BINARY_PATH, ATLAS_PATH, false);
-			spineData.state.setAnimation(0, 'Start_Idle_02', false);
+			spineData.state.addAnimation(0, 'Start_Idle_01', false);
+			setTimeout(() => {
+				spineData = loadSpineData(BINARY, ATLAS, false);
+				spineData.state.addAnimation(0, 'Start_Idle_01', false);
+			}, 2200)
 
+			setTimeout(() => {
+				spineData = loadSpineData(BINARY_PATH, ATLAS_PATH, false);
+				spineData.state.addAnimation(0, 'Start_Idle_02', false);
+				spineData.state.addAnimation(0, 'Idle_01', true, 0);
+				interactionLoad();
+				resize();
+			}, 3500);
+			clearTimeout();
 		}
 		spineData.state.addAnimation(0, 'Idle_01', true, 0);
+
 
 
 		interactionLoad();
