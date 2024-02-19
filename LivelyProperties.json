@@ -1,12 +1,10 @@
         {
             "bgmfile": {
-                "fileType": "video",
-                "index": 6,
-                "order": 106,
-                "text": "BGM File (Refresh to Apply)",
                 "type": "folderDropdown",
-                "folder": "audio",
-                "value": ""
+                "value": "sample.ogg",
+                "text": "BGM File (Refresh to Apply)",
+                "filter": "*.ogg|*.mp3",
+                "folder": "ost"
             },
             "bgmvolume": {
                 "fraction": false,
@@ -19,6 +17,7 @@
                 "value": 10
             },
             "headpatting": {
+                "condition": "mouseactions.value == true",
                 "index": 4,
                 "order": 104,
                 "text": "Headpatting",
@@ -40,6 +39,7 @@
                 "value": false
             },
             "mousetracking": {
+                "condition": "mouseactions.value == true",
                 "index": 5,
                 "order": 105,
                 "text": "Mouse Tracking",
