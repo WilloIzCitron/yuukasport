@@ -1,6 +1,6 @@
 
 # Overview
-This is a live wallpaper of Yuuka (Track ver.). because lack of permission, they can took down either contribute if can!
+This is a live wallpaper of Yuuka (Track ver.). because lack of permission, they can took down either contribute if they can!
 Now this supported on Lively! and it has many limitations
 
 # How to 
