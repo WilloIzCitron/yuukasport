@@ -18,6 +18,8 @@ This is the issue tables below:
 | 2  |  Intro has 2 segments were splited | Fixed!  |
 | 3  |  Inaccurate hitbox | Fixed |
 
+if you found it, please report on [issues](https://github.com/WilloIzCitron/yuukasport/issues)
+
 # Credits
 - [Fully Interactive Blue Archive L2D Mini-Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2956165539) by Xenon257R 
 
