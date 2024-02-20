@@ -25,5 +25,5 @@ if you found it, please report on [issues](https://github.com/WilloIzCitron/yuuk
 
 Disclaimer (Please Read): 
 - This suite is a fan-made project inspired by Blue Archive and not directly affiliated with it. Copyright remains with the developer and publisher of Blue Archive: Nexon, NAT GAMES and Yostar.
-- This repository has fully forked from Xenon257R, including codes and assets
+- This repository has fully forked from Xenon257R, including scripts
 
