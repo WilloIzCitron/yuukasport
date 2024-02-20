@@ -1,10 +1,8 @@
         {
             "bgmfile": {
-                "type": "folderDropdown",
+                "type": "textbox",
                 "value": "sample.ogg",
-                "text": "BGM File (Refresh to Apply)",
-                "filter": "*.ogg|*.mp3",
-                "folder": "ost"
+                "text": "BGM File (Refresh to Apply)"
             },
             "bgmvolume": {
                 "fraction": false,

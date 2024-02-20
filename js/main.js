@@ -6,7 +6,7 @@ let spineData;
 
 let customScale = 1;
 let targetFps = 60;
-let bgmfile = '';
+let bgmfile = './ost/Theme_09.ogg';
 let bgmvolume = 0;
 let bgm;
 let bufferColor = [0.3, 0.3, 0.3];
@@ -27,7 +27,7 @@ let transpose = 1;
 const CHARACTER = 'CH0184';
 const BINARY_PATH = window.location.protocol === 'file:' ? location.href.replace('/index.html', `/assets/${CHARACTER}_home.skel`) : `../assets/${CHARACTER}_home.skel`;
 const ATLAS_PATH = window.location.protocol === 'file:' ? location.href.replace('/index.html', `/assets/${CHARACTER}_home.atlas`) : `../assets/${CHARACTER}_home.atlas`;
-const ATLAS = window.location.protocol === 'file:' ? location.href.replace('/index.html', `/assets/${CHARACTER}_00.skel`) : `../assets/${CHARACTER}_00.atlas`;
+const ATLAS = window.location.protocol === 'file:' ? location.href.replace('/index.html', `/assets/${CHARACTER}_00.atlas`) : `../assets/${CHARACTER}_00.atlas`;
 const BINARY = window.location.protocol === 'file:' ? location.href.replace('/index.html', `/assets/${CHARACTER}_00.skel`) : `../assets/${CHARACTER}_00.skel`;
 const HAS_A = { eye: false, point: true };
 
@@ -279,7 +279,9 @@ function livelyPropertyListener(name, val) {
 }
 
 
+
 function init() {
+
 	textbox = document.getElementById('textbox');
 
 	canvas = document.getElementById('canvas');
@@ -377,7 +379,7 @@ function load() {
 		resize();
 
 		// Plays BGM (if set)
-		bgm = new Audio(bgmfile);
+		bgm = new Audio(`./ost/Theme_09.ogg`);
 		bgm.volume = bgmvolume;
 		bgm.play();
 		bgm.addEventListener('ended', function () {
