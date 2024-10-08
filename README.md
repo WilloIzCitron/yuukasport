@@ -14,7 +14,7 @@ Warning! this project has many bugs
 This is the issue tables below:
 |  No |  Issues |  Status |
 |---|---|---|
-|  1 | After Headpatting, Blush can't disappear  |   |
+|  1 | After Headpatting, Blush won't disappear  |   |
 | 2  |  Intro has 2 segments were splited | Fixed!  |
 | 3  |  Inaccurate hitbox | Fixed |
 
